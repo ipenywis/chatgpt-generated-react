@@ -10,19 +10,17 @@ const LandingSection = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between text-white">
           <div className="w-full md:w-1/2 md:mr-8">
             <h2 className="text-4xl font-bold mb-4 text-cyan-500">
-              Keyboard<span className="text-cyan">r</span>
+              MedMasters 
             </h2>
             <p className="text-gray-300 text-lg mb-6">
-              We are a brand that specializes in creating the best keyboards for
-              typing enthusiasts. Our keyboards are made with high-quality
-              materials and designed to enhance your typing experience.
+              MedMaster is a pharmacy based robot, which can deliver you the required medicine by ordering via the web app in the pharmacy center.
             </p>
             <div className="flex flex-col md:flex-row">
               <a
                 href="/keyboards"
                 className="bg-cyan-500 hover:bg-cyan-600 text-white py-3 px-6 rounded-md font-bold text-lg mr-0 md:mr-4 mb-4 md:mb-0 transition duration-300 ease-in-out"
               >
-                Explore Keyboards
+                Explore Medicines
               </a>
               <a
                 href="/register"

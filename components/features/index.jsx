@@ -9,21 +9,19 @@ function Features() {
           <div className="flex flex-col items-center justify-center">
             <FaKeyboard size={48} className="text-indigo-500 mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Mechanical Keys
+              Improved Convinience
             </h3>
             <p className="text-gray-600 text-center">
-              Enjoy a tactile typing experience with our high-quality mechanical
-              keys.
+              Enjoy a human-free pharmacy where the medicines will be given to you in a jiffy.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">
             <FaMagic size={48} className="text-indigo-500 mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Customizable RGB Lighting
+              Customizable 
             </h3>
             <p className="text-gray-600 text-center">
-              Personalize your keyboard with our customizable RGB lighting
-              options.
+              Personalize your robot as per your needs. 
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">
@@ -32,8 +30,7 @@ function Features() {
               Ergonomic Design
             </h3>
             <p className="text-gray-600 text-center">
-              Our keyboards are designed to provide maximum comfort and reduce
-              strain on your hands and wrists.
+              Robot is designed in such a way that, the medicines are given to customer in a smooth manner without any hassle. 
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">

@@ -1,56 +1,57 @@
 import Link from "next/link";
 import { Rating } from "../rating";
-
-import Keyboard1Img from "../../assets/keyboard1.png";
-import Keyboard2Img from "../../assets/keyboard2.png";
-import Keyboard3Img from "../../assets/keyboard3.png";
-import Keyboard4Img from "../../assets/keyboard4.png";
+import Medicine1Img from "../../assets/amlodipine.png";
+import Medicine2Img from "../../assets/azithromycin.png";
+import Medicine3Img from "../../assets/lisinopril.png";
+import Medicine4Img from "../../assets/paracetamol.png";
+import Medicine5Img from "../../assets/eldoper.png";
+import Medicine6Img from "../../assets/ibuprofen.png";
 
 const products = [
   {
     id: 1,
-    name: "Keyboard 1",
-    imageSrc: Keyboard1Img.src,
+    name: "Amlodipine",
+    imageSrc : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQRi2GVH3Uxsw_psvr9Ho7Bi7xjn9Zj-Z_gxRVilvGA&s",
     rating: 5,
     numReviews: 10,
     price: 99.99,
   },
   {
     id: 2,
-    name: "Keyboard 2",
-    imageSrc: Keyboard2Img.src,
+    name: "Azithromycin",
+    imageSrc: Medicine2Img,
     rating: 5,
     numReviews: 8,
     price: 129.99,
   },
   {
     id: 3,
-    name: "Keyboard 3",
-    imageSrc: Keyboard3Img.src,
+    name: "Lisinopril",
+    imgSrc: Medicine3Img, 
     rating: 5,
     numReviews: 6,
     price: 79.99,
   },
   {
     id: 4,
-    name: "Keyboard 4",
-    imageSrc: Keyboard2Img.src,
+    name: "Paracetamol",
+    imgSrc: Medicine4Img,
     rating: 5,
     numReviews: 12,
     price: 149.99,
   },
   {
     id: 5,
-    name: "Keyboard 5",
-    imageSrc: Keyboard3Img.src,
+    name: "Eldoper",
+    imgSrc : Medicine5Img,
     rating: 5,
     numReviews: 9,
     price: 119.99,
   },
   {
     id: 6,
-    name: "Keyboard 6",
-    imageSrc: Keyboard4Img.src,
+    name: "Ibuprofen",
+    imgSrc: Medicine6Img,
     rating: 5,
     numReviews: 7,
     price: 89.99,

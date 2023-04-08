@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="pl-10 pr-10 mx-auto px-4 h-full flex items-center justify-between">
         <Link href="/" legacyBehavior>
           <a className="flex-shrink-0 text-3xl font-bold text-gray-900 cursor-pointer">
-            Keyboard<span className="text-cyan">r</span>
+          Med<span className="text-cyan">Masters</span>
           </a>
         </Link>
         <div className="flex-grow">
@@ -15,14 +15,14 @@ const Navbar = () => {
             <li>
               <Link href="/" legacyBehavior>
                 <a className="text-black font-semibold transition duration-300 ease-in-out hover:text-gray-500 hover:cursor-pointer">
-                  Keyboards
+                  Medicines
                 </a>
               </Link>
             </li>
             <li>
               <Link href="/" legacyBehavior>
                 <a className="text-black font-semibold transition duration-300 ease-in-out hover:text-gray-500 hover:cursor-pointer">
-                  Keycaps
+                  About us 
                 </a>
               </Link>
             </li>
